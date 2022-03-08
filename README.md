@@ -16,3 +16,6 @@ The text component at the top of the game must always show whose turn it is. The
 NB! If a player has already placed their symbol in a position, the other player cannot choose the same position. Make sure that the turn doesn't change if a player tries to choose a position that already contains a symbol.
 
 NB!! You might encounter the following error: "local variables referenced from a lambda expression must be final or effectively final". This is because objects instanced of interfaces cannot use variables that are defined outside of the method. You can avoid the error by creating new variables that you set the problematic values to just before using them in the method.
+
+
+![tictactoe](https://user-images.githubusercontent.com/77161873/157261228-fe2f577c-82b7-4a8c-96bf-cf92c1074070.gif)
